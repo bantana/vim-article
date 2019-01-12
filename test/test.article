@@ -1,0 +1,60 @@
+title
+12 Jan 2019
+Tags: article, test
+
+bantana
+
+* subtitle1
+
+link
+code
+
+.code
+.codefes
+.link
+
+.srcf fesfesg
+.hell fesf
+.link :
+syn keyword ArticleKeyword code link Tags nextgroup=ArticleName skipwhite
+syn match /^\.* contained
+
+sfyn keyword ArticleKeyword Tags code link nextgroup=ArticleName skipwhite
+syn match ArticleName "^." contained
+hi link ArticleName GruvboxOrange
+
+hi ArticleKeyword guifg=#11f0c3 guibg=#ff00fyn
+
+fesf .link
+
+syn keyword VariableType real real1D real2D real3D int nextgroup=VarName skipwhite
+syn match VarName '\i\+' contained
+hi VariableType ctermfg=darkgreen
+hi VarName ctermfg=darkblue
+
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+* subtitle2
+
+- list1
+- list2
+- list3
+- list4
+  Elit maiores perferendis adipisci harum adipisci mollitia Quas numquam quis.
+
+
+* subtitle3
+
+  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+no sea takimata sanctus est Lorem ipsum dolor sit amet.
